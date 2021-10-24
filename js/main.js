@@ -1,35 +1,36 @@
-
-
- function clicou(){
-	document.getElementById("agradecimento").innerHTML="<b>Obrigado por cliquar</b>";
-	//console.log(document.getElementByid("agradecimento"));
-	//alert("Obrigado por cliquar");
+function clicou() {
+  document.getElementById("agradecimento").innerHTML =
+    "<b>Obrigado por cliquar</b>";
+  //console.log(document.getElementByid("agradecimento"));
+  //alert("Obrigado por cliquar");
 }
 
-function redirecionar(){
-	window.open("https://innovationlabschools.com/global-learning-academy.html");
-	//window.location.href = "https://innovationlabschools.com/global-learning-academy.html";
+function redirecionar() {
+  window.open("https://innovationlabschools.com/global-learning-academy.html");
+  //window.location.href = "https://innovationlabschools.com/global-learning-academy.html";
 }
 
-function trocar(elemento){
-	//document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
-	elemento.innerHTML = "Obrigado por passar o mouse";
-	//alert("trocar texto");
+function trocar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+  elemento.innerHTML = "Obrigado por passar o mouse";
+  //alert("trocar texto");
 }
 
-function voltar(elemento){
-	//document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
-	elemento.innerHTML = "Passe o mouse aqui";
+function voltar(elemento) {
+  //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+  elemento.innerHTML = "Passe o mouse aqui";
 }
 
-function load(){
-	alert("pagina carregada");
+function load() {
+  alert("Pagina Carregada");
 }
 
-function funcaoChange(elemento){
-	console.log(elemento.value)
+function funcaoChange(elemento) {
+  console.log(elemento.value);
 }
 /*
+Exemplos 
+
 function soma(n1, n2){
 	return n1 + n2;
 }
@@ -79,7 +80,6 @@ if (idade >= 18) {
 };
 */
 
-
 /*
 var frutas = [{nome:"maça", cor:"vermelha"},{nome:"uva" , cor: "roxa"}];
 console.log(frutas);
@@ -98,7 +98,6 @@ alert(fruta.cor);
 //console.log(lista);
 //console.log(lista.toString())
 //console.log(lista.join(" - "))
-
 
 //var nome = "Gabriel Martins";
 //var n1 = 5;

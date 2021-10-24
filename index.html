@@ -1,20 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<title>Minha Pagina</title>
-		<meta charset="utf-8">
-		<script type="text/javascript"src="js/main.js"></script>
-	</head>
-	<body onload="load()">
-		<button type="button" onclick="clicou()">Clique aqui</button>
-		<p id="agradecimento" onclick="redirecionar()"></p>
-		<p  onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
-		<p  onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
-		<p  onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
-		<select onchange="funcaoChange(this)">
-			<option value="1">Valor 1</option>
-			<option value="2">Valor 2</option>
-			<option value="3">Valor 3</option>
-		</select>
-	</body>
+  <head>
+    <title>Minha Pagina</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="load()">
+    <div class="container">
+      <button type="button" class="btn btn-secondary" onclick="clicou()">
+        Clique aqui
+      </button>
+      <p class="lead" id="agradecimento" onclick="redirecionar()"></p>
+      <p class="lead" onmouseover="trocar(this)" onmouseout="voltar(this)">
+        Passe o mouse aqui
+      </p>
+      <p class="lead" onmouseover="trocar(this)" onmouseout="voltar(this)">
+        Passe o mouse aqui
+      </p>
+      <p class="lead" onmouseover="trocar(this)" onmouseout="voltar(this)">
+        Passe o mouse aqui
+      </p>
+      <select onchange="funcaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+      </select>
+    </div>
+  </body>
 </html>
