@@ -9,6 +9,13 @@
 Introduçao ao JavaScript Na Dio
 </p>
 
+
+## Atenção🔴
+
+### Link do Curso: [Programação para internet com JavaScript](https://digitalinnovation.one/cursos/programacao-para-internet-com-javascript#:~:text=O%20JavaScript%20%C3%A9%20a%20linguagem,come%C3%A7ar%20a%20trabalhar%20com%20ela.) ❗❗
+
+<br>
+
  ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -16,6 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - **[JavaScript](https://www.w3schools.com/w3js/)**
 
 - **[HTML](https://www.w3schools.com/html/)**
+
 - **[CSS](https://www.w3schools.com/css/)**
 
 
